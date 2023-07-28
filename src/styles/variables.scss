@@ -1,0 +1,30 @@
+/**
+ * Fonts setup
+ *
+ */
+ $main-ff: 'e-Ukraine', sans-serif;
+
+
+ /**
+ * Colors setup
+ *
+ */
+// Firm site color
+$main-site: #BB403D;
+
+// Text site color's
+$text-main: #E0E0E0;
+$text-accent: $main-site;
+
+/**
+ * Breakpoints
+ *
+ */
+$container-max-width: 1140px;
+
+$breakpoints: (
+    ('xs', 320px),
+    ('sm', 660px),
+    ('md', 768px),
+    ('lg', 1140px)
+  ) !default;
